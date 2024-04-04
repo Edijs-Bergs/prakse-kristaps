@@ -1,0 +1,6 @@
+plugin:
+    name: 'kristaps.kristaps::lang.plugin.name'
+    description: 'kristaps.kristaps::lang.plugin.description'
+    author: kristaps
+    icon: oc-icon-adjust
+    homepage: ''

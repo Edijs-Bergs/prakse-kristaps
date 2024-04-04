@@ -1,0 +1,15 @@
+title = "movies"
+layout = "default"
+url = "/movies"
+
+[builderList]
+modelClass = "Kristaps\Movies\Models\Moviie"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}

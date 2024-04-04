@@ -1,0 +1,11 @@
+plugin:
+    name: 'kristaps.movies::lang.plugin.name'
+    description: 'kristaps.movies::lang.plugin.description'
+    author: kristaps
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: kristaps/movies/movies
+        icon: icon-video-camera

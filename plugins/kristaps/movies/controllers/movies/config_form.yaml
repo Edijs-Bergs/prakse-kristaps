@@ -1,0 +1,11 @@
+name: Movies
+modelClass: Kristaps\Movies\Models\Moviie
+form: $/kristaps/movies/models/moviie/fields.yaml
+defaultRedirect: kristaps/movies/movies
+create:
+    redirect: 'kristaps/movies/movies/update/:id'
+    redirectClose: kristaps/movies/movies
+update:
+    redirect: kristaps/movies/movies
+    redirectClose: kristaps/movies/movies
+preview: {  }
