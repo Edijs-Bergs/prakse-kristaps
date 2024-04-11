@@ -1,0 +1,12 @@
+title = "Genres"
+layout = "default"
+url = "/genres/:slug"
+
+[builderDetails]
+modelClass = "Kristaps\Movies\Models\Genre"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "genre_title"
+notFoundMessage = "Record not found"
+==
+{% component 'builderDetails' %}

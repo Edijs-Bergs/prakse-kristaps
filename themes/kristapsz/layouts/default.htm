@@ -10,19 +10,25 @@ description = "Default layout"
         <meta name="author" content="OctoberCMS">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}" />
         {% styles %}
-        <link href="{{ 'assets/style.css'|theme }}" rel="stylesheet"> 
+        <link href="{{ 'assets/compiled/css/style.css'|theme }}" rel="stylesheet">
     </head>
     <body>
-
-        {% partial "header" %}
+       
+        
 
         <!-- Content -->
-        <section id="layout-content">
+        <section id="layout-content" class="container clearfix">   
             {% page %}
         </section>
 
         {% partial "footer" %}
+
+        <!-- Scripts -->
+        <script src="{{ 'assets/compiled/js/all.js'|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
 
     </body>
 </html>

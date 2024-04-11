@@ -312,7 +312,7 @@ class RecordList extends ComponentBase
         }
 
         if (!preg_match('/^[0-9]+$/', $recordsPerPage)) {
-            throw new SystemException('Invalid records per page value.');
+            
         }
 
         $pageNumber = trim($this->property('pageNumber'));

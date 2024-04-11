@@ -9,3 +9,12 @@ navigation:
         label: Movies
         url: kristaps/movies/movies
         icon: icon-video-camera
+        sideMenu:
+            side-menu-item2:
+                label: movies
+                url: /kristaps/movies/movies
+                icon: icon-video-camera
+            side-menu-item:
+                label: Genres
+                url: kristaps/movies/genres
+                icon: icon-tag

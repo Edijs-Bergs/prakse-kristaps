@@ -3,3 +3,15 @@ v1.0.1:
 v1.0.2:
     - 'Created table kristaps_movies_'
     - builder_table_create_kristaps_movies_.php
+v1.0.3:
+    - 'Updated table kristaps_movies_'
+    - builder_table_update_kristaps_movies_.php
+v1.0.4:
+    - 'Created table kristaps_movies_genres'
+    - builder_table_create_kristaps_movies_genres.php
+v1.0.5:
+    - 'Created table kristaps_movies_movies_genres'
+    - builder_table_create_kristaps_movies_movies_genres.php
+v1.0.6:
+    - 'Updated table kristaps_movies_movies_genres'
+    - builder_table_update_kristaps_movies_movies_genres.php

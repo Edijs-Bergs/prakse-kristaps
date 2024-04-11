@@ -26,4 +26,33 @@ class Moviie extends Model
     public $rules = [
     ];
 
+    /* relations */
+
+
+    public $belongsToMany=[
+        'genres' => [
+
+          'Kristaps\Movies\Models\Genre',
+          'table' => 'kristaps_movies_movies_genres',
+
+          'order' => 'genre_title'
+
+        ]
+    ];
+        
+
+
+    public $attachOne =[
+        'poster' => 'System\Models\File'
+    ];
+        
+    
+
+
+    public $attachMany =[
+        'movie_gallery' => 'System\Models\File'
+    ];
+        
 }
+
+

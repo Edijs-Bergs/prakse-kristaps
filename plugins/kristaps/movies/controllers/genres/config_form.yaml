@@ -1,0 +1,10 @@
+name: Genres
+form: $/kristaps/movies/models/genre/fields.yaml
+modelClass: Kristaps\Movies\Models\Genre
+defaultRedirect: kristaps/movies/genres
+create:
+    redirect: 'kristaps/movies/genres/update/:id'
+    redirectClose: kristaps/movies/genres
+update:
+    redirect: kristaps/movies/genres
+    redirectClose: kristaps/movies/genres
